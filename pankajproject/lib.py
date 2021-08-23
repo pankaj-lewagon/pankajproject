@@ -1,4 +1,5 @@
 # pankajproject/lib.py
+import getpass
 
-def try_me(name):
-    return f"Hello {name} and welcome to Pankaj's"
+def try_me():
+    return f"Hello {getpass.getuser()}!!! Thank for downloading Pankaj's software :)"
